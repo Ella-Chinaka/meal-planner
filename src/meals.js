@@ -1,7 +1,10 @@
 const meals = [
   // BREAKFAST OPTIONS
   {
+    id: "pap-akara",
     name: "Pap & Akara",
+    vegetarian: true,
+    contains: [],
     mealType: "breakfast",
     calories: 420,
     carbohydrate: 60,
@@ -12,7 +15,10 @@ const meals = [
     ingredients: ["Pap", "Beans", "Onion", "Palm oil or vegetable oil", "Salt"]
   },
   {
+    id: "moi-moi-pap",
     name: "Moi Moi & Pap",
+    vegetarian: true,
+    contains: [],
     mealType: "breakfast",
     calories: 380,
     carbohydrate: 55,
@@ -23,7 +29,10 @@ const meals = [
     ingredients: ["Beans", "Pepper", "Onion", "Palm oil", "Pap"]
   },
   {
+    id: "bread-akara",
     name: "Bread & Akara",
+    vegetarian: true,
+    contains: ["gluten"],
     mealType: "breakfast",
     calories: 450,
     carbohydrate: 65,
@@ -34,7 +43,10 @@ const meals = [
     ingredients: ["Bread", "Beans", "Onion", "Vegetable oil", "Salt"]
   },
   {
+    id: "yam-egg-sauce",
     name: "Yam & Egg Sauce",
+    vegetarian: true,
+    contains: ["egg"],
     mealType: "breakfast",
     calories: 500,
     carbohydrate: 70,
@@ -45,7 +57,10 @@ const meals = [
     ingredients: ["Yam", "Eggs", "Tomatoes", "Onion", "Vegetable oil"]
   },
   {
+    id: "ogi-or-akamu-with-milk",
     name: "Ogi or Akamu with Milk",
+    vegetarian: true,
+    contains: ["dairy"],
     mealType: "breakfast",
     calories: 350,
     carbohydrate: 55,
@@ -56,7 +71,10 @@ const meals = [
     ingredients: ["Pap (fermented maize)", "Milk", "Sugar (optional)"]
   },
   {
+    id: "plantain-frittata",
     name: "Plantain Frittata",
+    vegetarian: true,
+    contains: ["egg"],
     mealType: "breakfast",
     calories: 480,
     carbohydrate: 50,
@@ -67,7 +85,10 @@ const meals = [
     ingredients: ["Plantain", "Eggs", "Onion", "Tomatoes", "Vegetable oil"]
   },
   {
+    id: "beans-cake-akara-custard",
     name: "Beans Cake (Akara) & Custard",
+    vegetarian: true,
+    contains: ["dairy"],
     mealType: "breakfast",
     calories: 430,
     carbohydrate: 58,
@@ -78,7 +99,10 @@ const meals = [
     ingredients: ["Beans", "Onion", "Vegetable oil", "Custard powder", "Milk"]
   },
   {
+    id: "boiled-sweet-potatoes-sauce",
     name: "Boiled Sweet Potatoes & Sauce",
+    vegetarian: true,
+    contains: [],
     mealType: "breakfast",
     calories: 410,
     carbohydrate: 62,
@@ -89,7 +113,10 @@ const meals = [
     ingredients: ["Sweet potatoes", "Palm oil", "Onion", "Pepper", "Tomatoes"]
   },
   {
+    id: "nkwobi-light-portion",
     name: "Nkwobi (light portion)",
+    vegetarian: false,
+    contains: ["beef"],
     mealType: "breakfast",
     calories: 390,
     carbohydrate: 35,
@@ -100,7 +127,10 @@ const meals = [
     ingredients: ["Cow foot", "Palm oil", "Utazi leaves", "Onion", "Pepper"]
   },
   {
+    id: "tea-bread-with-egg",
     name: "Tea & Bread with Egg",
+    vegetarian: true,
+    contains: ["gluten", "egg", "dairy"],
     mealType: "breakfast",
     calories: 440,
     carbohydrate: 60,
@@ -113,7 +143,10 @@ const meals = [
 
   // LUNCH OPTIONS
   {
+    id: "jollof-rice-chicken",
     name: "Jollof Rice & Chicken",
+    vegetarian: false,
+    contains: ["chicken"],
     mealType: "lunch",
     calories: 650,
     carbohydrate: 85,
@@ -124,7 +157,10 @@ const meals = [
     ingredients: ["Rice", "Tomatoes", "Pepper", "Onion", "Chicken", "Vegetable oil"]
   },
   {
+    id: "fried-rice-plantain",
     name: "Fried Rice & Plantain",
+    vegetarian: false,
+    contains: ["chicken"],
     mealType: "lunch",
     calories: 600,
     carbohydrate: 80,
@@ -135,7 +171,10 @@ const meals = [
     ingredients: ["Rice", "Mixed vegetables", "Chicken stock", "Plantain", "Vegetable oil"]
   },
   {
+    id: "efo-riro-semovita",
     name: "Efo Riro & Semovita",
+    vegetarian: true,
+    contains: ["gluten"],
     mealType: "lunch",
     calories: 700,
     carbohydrate: 90,
@@ -146,7 +185,10 @@ const meals = [
     ingredients: ["Spinach/ugu leaves", "Palm oil", "Tomatoes", "Pepper", "Semovita"]
   },
   {
+    id: "egusi-soup-pounded-yam",
     name: "Egusi Soup & Pounded Yam",
+    vegetarian: false,
+    contains: ["fish"],
     mealType: "lunch",
     calories: 750,
     carbohydrate: 95,
@@ -157,7 +199,10 @@ const meals = [
     ingredients: ["Egusi (melon seeds)", "Palm oil", "Spinach", "Yam", "Stockfish"]
   },
   {
+    id: "okra-soup-fufu",
     name: "Okra Soup & Fufu",
+    vegetarian: false,
+    contains: ["shellfish"],
     mealType: "lunch",
     calories: 680,
     carbohydrate: 88,
@@ -168,7 +213,10 @@ const meals = [
     ingredients: ["Okra", "Palm oil", "Crayfish", "Cassava fufu", "Pepper"]
   },
   {
+    id: "beans-plantain",
     name: "Beans & Plantain",
+    vegetarian: true,
+    contains: [],
     mealType: "lunch",
     calories: 550,
     carbohydrate: 80,
@@ -179,7 +227,10 @@ const meals = [
     ingredients: ["Beans", "Palm oil", "Onion", "Plantain"]
   },
   {
+    id: "ofada-rice-ayamase-sauce",
     name: "Ofada Rice & Ayamase Sauce",
+    vegetarian: false,
+    contains: ["beef"],
     mealType: "lunch",
     calories: 720,
     carbohydrate: 95,
@@ -190,7 +241,10 @@ const meals = [
     ingredients: ["Ofada rice", "Green pepper", "Locust beans", "Palm oil", "Beef"]
   },
   {
+    id: "banga-soup-starch",
     name: "Banga Soup & Starch",
+    vegetarian: false,
+    contains: ["fish", "beef"],
     mealType: "lunch",
     calories: 760,
     carbohydrate: 92,
@@ -201,7 +255,10 @@ const meals = [
     ingredients: ["Palm nuts", "Spices", "Catfish", "Beef", "Starch"]
   },
   {
+    id: "afang-soup-garri",
     name: "Afang Soup & Garri",
+    vegetarian: false,
+    contains: ["fish"],
     mealType: "lunch",
     calories: 740,
     carbohydrate: 96,
@@ -212,7 +269,10 @@ const meals = [
     ingredients: ["Afang leaves", "Waterleaf", "Palm oil", "Garri", "Stockfish"]
   },
   {
+    id: "oha-soup-pounded-yam",
     name: "Oha Soup & Pounded Yam",
+    vegetarian: false,
+    contains: ["beef"],
     mealType: "lunch",
     calories: 730,
     carbohydrate: 92,
@@ -225,7 +285,10 @@ const meals = [
 
   // DINNER OPTIONS
   {
+    id: "beans-porridge",
     name: "Beans Porridge",
+    vegetarian: true,
+    contains: [],
     mealType: "dinner",
     calories: 500,
     carbohydrate: 70,
@@ -236,7 +299,10 @@ const meals = [
     ingredients: ["Beans", "Palm oil", "Onion", "Pepper", "Plantain"]
   },
   {
+    id: "yam-porridge-asaro",
     name: "Yam Porridge (Asaro)",
+    vegetarian: true,
+    contains: [],
     mealType: "dinner",
     calories: 540,
     carbohydrate: 78,
@@ -247,7 +313,10 @@ const meals = [
     ingredients: ["Yam", "Palm oil", "Pepper", "Onion", "Vegetables"]
   },
   {
+    id: "ewa-agoyin-bread",
     name: "Ewa Agoyin & Bread",
+    vegetarian: true,
+    contains: ["gluten"],
     mealType: "dinner",
     calories: 520,
     carbohydrate: 74,
@@ -258,7 +327,10 @@ const meals = [
     ingredients: ["Beans", "Palm oil", "Pepper", "Onion", "Bread"]
   },
   {
+    id: "okpa-steamed-bambara-nut-cake",
     name: "Okpa (Steamed Bambara Nut Cake)",
+    vegetarian: true,
+    contains: [],
     mealType: "dinner",
     calories: 450,
     carbohydrate: 65,
@@ -269,7 +341,10 @@ const meals = [
     ingredients: ["Bambara nut flour", "Palm oil", "Onion", "Pepper"]
   },
   {
+    id: "nkwobi-dinner-portion",
     name: "Nkwobi (Dinner Portion)",
+    vegetarian: false,
+    contains: ["beef"],
     mealType: "dinner",
     calories: 600,
     carbohydrate: 40,
@@ -280,7 +355,10 @@ const meals = [
     ingredients: ["Cow foot", "Palm oil", "Utazi leaves", "Onion", "Seasoning"]
   },
   {
+    id: "abacha-african-salad",
     name: "Abacha (African Salad)",
+    vegetarian: false,
+    contains: ["fish"],
     mealType: "dinner",
     calories: 490,
     carbohydrate: 68,
@@ -291,7 +369,10 @@ const meals = [
     ingredients: ["Cassava flakes (abacha)", "Ugba", "Palm oil", "Dry fish", "Pepper"]
   },
   {
+    id: "fish-pepper-soup",
     name: "Fish Pepper Soup",
+    vegetarian: false,
+    contains: ["fish"],
     mealType: "dinner",
     calories: 420,
     carbohydrate: 10,
@@ -302,7 +383,10 @@ const meals = [
     ingredients: ["Fish (catfish/tilapia)", "Pepper", "Spices", "Onion", "Yam (optional)"]
   },
   {
+    id: "steamed-white-rice-vegetable-sauce",
     name: "Steamed White Rice & Vegetable Sauce",
+    vegetarian: true,
+    contains: [],
     mealType: "dinner",
     calories: 530,
     carbohydrate: 76,
@@ -313,7 +397,10 @@ const meals = [
     ingredients: ["Rice", "Vegetables", "Palm oil", "Pepper", "Onion"]
   },
   {
+    id: "plantain-porridge",
     name: "Plantain Porridge",
+    vegetarian: true,
+    contains: [],
     mealType: "dinner",
     calories: 510,
     carbohydrate: 72,
@@ -324,7 +411,10 @@ const meals = [
     ingredients: ["Unripe plantain", "Palm oil", "Pepper", "Onion", "Vegetables"]
   },
   {
+    id: "ogbono-soup-eba",
     name: "Ogbono Soup & Eba",
+    vegetarian: false,
+    contains: ["fish"],
     mealType: "dinner",
     calories: 720,
     carbohydrate: 95,
